@@ -9,11 +9,11 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Omar Ganem hat Eichelkäse
-## Alfons hat einen sehr sehr sehr kleinen mikroskopischen Frauenpenis
+## Omar Ganem
+## Alfons Graul
 
 ```{r ueq}
-ueq <- read.csv(UEQ.csv, header = TRUE, sep =",")
+ueq <- read.csv(UEQ.csv, header = TRUE,)
 ueq
 ```
 
