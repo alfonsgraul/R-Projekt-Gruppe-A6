@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Alfons Graul
 
 ```{r ueq}
-ueq <- read.csv(UEQ.csv, header = TRUE,)
+ueq <- read.csv("UEQ.csv", header = TRUE, sep = ";")
 ueq
 ```
 
